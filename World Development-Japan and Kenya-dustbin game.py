@@ -101,7 +101,7 @@ drag_and_drop_html = """
       Japan Reasons
     </div>
     <div class="bin" id="Kenya Reasons">
-      <img src="https://cdn-icons-png.flaticon.com/128/3079/3079182.png" alt="Kenya Gear">
+      <img src="https://cdn-icons-png.flaticon.com/128/3079/3079165.png" alt="Kenya Gear">
       Kenya Reasons
     </div>
   </div>
@@ -204,4 +204,4 @@ drag_and_drop_html = """
 </html>
 """
 
-components.html(drag_and_drop_html, height=600)
+st.iframe(drag_and_drop_html, height=600)
